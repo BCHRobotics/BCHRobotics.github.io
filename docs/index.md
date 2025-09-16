@@ -1,4 +1,4 @@
-![alt text](https://github.com/BCHRobotics/BCHRobotics.github.io/blob/master/images/trojan_helmet_white.png?)
+![alt text](images/trojan_helmet_white.png?)
 
 # FRC Team 2386 Programming
 
