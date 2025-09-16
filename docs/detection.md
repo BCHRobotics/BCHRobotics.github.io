@@ -1,6 +1,6 @@
 # The Rationale Behind: Gamepiece Detection
 
-by 10tothe6
+by `10tothe6`
 
 Something we need for a long-term software solution is a way of seeing game pieces on the field. 
 

@@ -1,6 +1,6 @@
 # The Rationale Behind: Our FRC Dashboard
 
-by 10tothe6
+by `10tothe6`
 
 There are a lot of programs that run on driverstations that can display information from the robot to anyone who happens to be driving it. We all know them as `dashboards`. Here are the most popular ones, from what I've seen:
 
