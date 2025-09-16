@@ -7,4 +7,9 @@ Most of this is written by Maximilian McDiarmid (10tothe6), you can reach him at
 ## Directory:
 
 * Gamepiece Detection: https://bchrobotics.github.io/#detection/
+* Autos:
+* Managing Mechanisms:
+* Dashboard:
+* Pathfinding:
+* Apriltags:
 
