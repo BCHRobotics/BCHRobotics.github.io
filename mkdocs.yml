@@ -2,6 +2,7 @@ site_name: 2386 Programming
 nav:
   - Home: index.md
   - Rationale: rationale.md
+  - Detection: detection.md
 theme:
   name: 'windmill-dark'
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'

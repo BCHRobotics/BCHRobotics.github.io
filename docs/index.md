@@ -6,5 +6,5 @@ This isn't our team website, it's just for programming! See the links section fo
 
 ## Important Links:
 
-Github: https://github.com/BCHRobotics/BCHRobotics.github.io
-Main Website: https://bchrobotics.com/
+* Github: https://github.com/BCHRobotics/BCHRobotics.github.io
+* Main Website: https://bchrobotics.com/
