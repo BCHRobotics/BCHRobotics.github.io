@@ -1,4 +1,4 @@
-![alt text](images/trojan_helmet_white.png?)
+![alt text](img/trojan_helmet_white.png?)
 
 # FRC Team 2386 Programming
 
