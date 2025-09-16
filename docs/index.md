@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# FRC Team 2386 Programming
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is pretty much just a documentation site but we might throw some other cool stuff up here soon.
 
-## Commands
+This isn't our team website, it's just for programming! See the links section for the *actual* team 2386 website.
 
-* mkdocs new [dir-name] - Create a new project.
-* mkdocs serve - Start the live-reloading docs server.
-* mkdocs build - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Important Links:
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Github: https://github.com/BCHRobotics/BCHRobotics.github.io
+Main Website: https://bchrobotics.com/
