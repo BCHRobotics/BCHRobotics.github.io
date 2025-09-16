@@ -1,0 +1,10 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+theme:
+  name: 'windmill-dark'
+  custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+      pygments_style: monokai
