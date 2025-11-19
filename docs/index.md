@@ -6,21 +6,23 @@ This is pretty much just a documentation site but we might throw some other cool
 
 This isn't our team website, it's just for programming! See 'Other Important Links' for the *main* team 2386 website.
 
-***
-
 ## Important Repositories:
   
 TankBot: [link](https://github.com/BCHRobotics/TankBot)
+***
 <img src="img/tankbot.png?" width="200" height="200" />
   
 MiniBot: [link](https://github.com/BCHRobotics/MiniBot)
-![alt text](img/minibot.png? =512x)
+***
+<img src="img/minibot.png?" width="200" height="200" />
   
 2025: [link](https://github.com/BCHRobotics/2025_Updated)
-![alt text](img/2025.png? =512x)
+***
+<img src="img/2025.png?" width="200" height="200" />
   
 2024: [link](https://github.com/BCHRobotics/2024_Updated)
-![alt text](img/2024.png? =512x)
+***
+<img src="img/2024.png?" width="200" height="200" />
 
 ***
 
