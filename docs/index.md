@@ -11,7 +11,7 @@ This isn't our team website, it's just for programming! See 'Other Important Lin
 ## Important Repositories:
   
 TankBot: [link](https://github.com/BCHRobotics/TankBot)
-![alt text](img/tankbot.png? =512x)
+<img src="img/tankbot.png?" width="200" height="200" />
   
 MiniBot: [link](https://github.com/BCHRobotics/MiniBot)
 ![alt text](img/minibot.png? =512x)
