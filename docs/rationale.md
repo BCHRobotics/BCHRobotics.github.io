@@ -8,10 +8,10 @@ Most of this is written by Maximilian McDiarmid (10tothe6), you can reach him at
 
 ## Directory:
 
-* [Gamepiece Detection](https://bchrobotics.github.io/#rationale_detection/)
-* [Autos](https://bchrobotics.github.io/#rationale_autos/)
-* [Managing Mechanisms](https://bchrobotics.github.io/#rationale_mechanisms/)
-* [Dashboard](https://bchrobotics.github.io/#rationale_dashboard/)
-* [Pathfinding](https://bchrobotics.github.io/#rationale_pathfinding/)
-* [Apriltags](https://bchrobotics.github.io/#rationale_apriltags/)
+* [Gamepiece Detection](https://bchrobotics.github.io/rationale_detection/)
+* [Autos](https://bchrobotics.github.io/rationale_autos/)
+* [Managing Mechanisms](https://bchrobotics.github.io/rationale_mechanisms/)
+* [Dashboard](https://bchrobotics.github.io/rationale_dashboard/)
+* [Pathfinding](https://bchrobotics.github.io/rationale_pathfinding/)
+* [Apriltags](https://bchrobotics.github.io/rationale_apriltags/)
 

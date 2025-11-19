@@ -8,22 +8,22 @@ This isn't our team website, it's just for programming! See 'Other Important Lin
 
 ## Important Repositories:
 ***
-TankBot: [link](https://github.com/BCHRobotics/TankBot)
+TankBot: [link to repository](https://github.com/BCHRobotics/TankBot)
   
 <img src="img/tankbot.png?" width="200" height="200" />
 ***
-MiniBot: [link](https://github.com/BCHRobotics/MiniBot)
+MiniBot: [link to repository](https://github.com/BCHRobotics/MiniBot)
   
 <img src="img/minibot.png?" width="200" height="200" />
 ***
-2025: [link](https://github.com/BCHRobotics/2025_Updated)
+2025: [link to repository](https://github.com/BCHRobotics/2025_Updated)
   
 <img src="img/2025.png?" width="200" height="200" />
 ***
-2024: [link](https://github.com/BCHRobotics/2024_Updated)
+2024: [link to repository](https://github.com/BCHRobotics/2024_Updated)
   
 <img src="img/2024.png?" width="200" height="200" />
-
+***
 ## Other Important Links:
 * Github for the website: [link](https://github.com/BCHRobotics/BCHRobotics.github.io)
 * FRC 2386 Github: [link](https://github.com/BCHRobotics)
