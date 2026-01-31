@@ -3,7 +3,7 @@ site_url: https://bchrobotics.github.io/documentation/
 docs_dir: documentation/docs/
 
 nav:
-  - Home: '../'
+  - Home: 'https://bchrobotics.github.io/documentation/index.md'
 theme:
   name: 'windmill-dark'
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
