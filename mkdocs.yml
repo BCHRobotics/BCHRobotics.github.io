@@ -1,13 +1,13 @@
 site_name: 2386 Programming
 site_url: https://bchrobotics.github.io/documentation/
 use_directory_urls: true
-docs_dir: documentation/docs
+docs_dir: /documentation/docs/
 
 extra:
   base_path: /documentation/
 
 nav:
-  - Home: index.md
+  - Home: /documentation/docs/index.md
 theme:
   name: 'windmill-dark'
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
