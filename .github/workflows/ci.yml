@@ -26,4 +26,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-windmill-dark
-      - run: mkdocs gh-deploy --force -f documentation/docs/mkdocs.yml
+      - run: mkdocs gh-deploy --force -f documentation/mkdocs.yml
