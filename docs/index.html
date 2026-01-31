@@ -66,8 +66,8 @@
       margin-bottom: 2rem;
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 1.2rem;          /* small gap between logo & text */
+      justify-content: flex-start;
+      gap: 1rem;          /* small gap between logo and text */
       text-align: left;
     }
 
@@ -77,11 +77,11 @@
     }
 
     .hero-text {
-      max-width: 520px;
+      max-width: 600px;   /* keep the line from stretching too far */
     }
 
     .hero-text p {
-      margin: 0.3rem 0;
+      margin: 0;
       font-size: 0.95rem;
     }
 
@@ -90,6 +90,7 @@
       .hero {
         flex-direction: column;
         text-align: center;
+        gap: 0.6rem;
       }
     }
 
@@ -178,13 +179,8 @@
 
     <header class="hero">
       <img src="img/trojan_title.png" alt="Team 2386 Trojan Logo">
-
       <div class="hero-text">
-        <p>
-          Official programming documentation hub for FRC Team 2386.
-          This site hosts robot code, experiments, and development notes.
-        </p>
-        <p><em>Clean code. Strong robots.</em></p>
+        <p>Official programming documentation hub for FRC Team 2386.</p>
       </div>
     </header>
 
