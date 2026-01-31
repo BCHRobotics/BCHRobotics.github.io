@@ -1,4 +1,5 @@
 site_name: 2386 Programming
+site_url: https://bchrobotics.github.io/documentation/
 nav:
   - Home: index.md
   - Rationale: 
