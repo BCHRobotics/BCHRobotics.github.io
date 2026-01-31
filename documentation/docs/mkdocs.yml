@@ -9,5 +9,5 @@ nav:
     - Detection: rationale_detection.md
     - Dashboard: rationale_dashboard.md
 theme:
-  name: 'windmill-dark'
-  custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
+  name: './windmill-dark'
+  custom_dir: './mkdocs-windmill-dark/mkdocs_windmill_dark'
