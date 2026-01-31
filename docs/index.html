@@ -62,25 +62,42 @@
 
     /* ---------------- HERO ---------------- */
     .hero {
-      margin-top: 0.5rem;   /* FIXED */
+      margin-top: 0.5rem;
       margin-bottom: 2rem;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;          /* small gap between logo & text */
+      text-align: left;
     }
 
     .hero img {
-      max-width: 260px;
-      margin-bottom: 0.6rem;
+      max-width: 220px;
+      margin: 0;
     }
 
-    .hero p {
-      max-width: 720px;
-      margin: 0.4rem auto;
+    .hero-text {
+      max-width: 520px;
+    }
+
+    .hero-text p {
+      margin: 0.3rem 0;
       font-size: 0.95rem;
+    }
+
+    /* Mobile stacking */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
     }
 
     /* ---------------- GRID ---------------- */
     .grid {
       gap: 1.25rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     /* ---------------- ROBOT CARDS ---------------- */
@@ -161,11 +178,14 @@
 
     <header class="hero">
       <img src="img/trojan_title.png" alt="Team 2386 Trojan Logo">
-      <p>
-        Official programming documentation hub for FRC Team 2386.
-        This site hosts robot code, experiments, and development notes.
-      </p>
-      <p><em>Clean code. Strong robots.</em></p>
+
+      <div class="hero-text">
+        <p>
+          Official programming documentation hub for FRC Team 2386.
+          This site hosts robot code, experiments, and development notes.
+        </p>
+        <p><em>Clean code. Strong robots.</em></p>
+      </div>
     </header>
 
     <section id="repos">
@@ -176,33 +196,25 @@
         <article class="repo-card">
           <h3>TankBot</h3>
           <img src="img/tankbot.png" width="200" alt="TankBot">
-          <a href="https://github.com/BCHRobotics/TankBot" target="_blank">
-            View Repository →
-          </a>
+          <a href="https://github.com/BCHRobotics/TankBot" target="_blank">View Repository →</a>
         </article>
 
         <article class="repo-card">
           <h3>MiniBot</h3>
           <img src="img/minibot.png" width="200" alt="MiniBot">
-          <a href="https://github.com/BCHRobotics/MiniBot" target="_blank">
-            View Repository →
-          </a>
+          <a href="https://github.com/BCHRobotics/MiniBot" target="_blank">View Repository →</a>
         </article>
 
         <article class="repo-card">
           <h3>2025 Competition Robot</h3>
           <img src="img/2025.png" width="200" alt="2025 Robot">
-          <a href="https://github.com/BCHRobotics/2025_Updated" target="_blank">
-            View Repository →
-          </a>
+          <a href="https://github.com/BCHRobotics/2025_Updated" target="_blank">View Repository →</a>
         </article>
 
         <article class="repo-card">
           <h3>2024 Competition Robot</h3>
           <img src="img/2024.png" width="200" alt="2024 Robot">
-          <a href="https://github.com/BCHRobotics/2024_Updated" target="_blank">
-            View Repository →
-          </a>
+          <a href="https://github.com/BCHRobotics/2024_Updated" target="_blank">View Repository →</a>
         </article>
 
       </div>
