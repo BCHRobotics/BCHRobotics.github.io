@@ -3,11 +3,7 @@ site_url: https://bchrobotics.github.io/documentation/
 docs_dir: documentation/docs/
 
 nav:
-  - Home: index.md
-  - Rationale: 
-    - About: rationale.md
-    - Detection: rationale_detection.md
-    - Dashboard: rationale_dashboard.md
+  - Home: '../'
 theme:
   name: 'windmill-dark'
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
