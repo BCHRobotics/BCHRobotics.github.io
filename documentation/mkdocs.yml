@@ -6,7 +6,7 @@ extra:
   base_path: /documentation/
 
 nav:
-  - Home: /documentation/docs/index.md
+  - Home: index.md
 theme:
   name: 'windmill-dark'
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
