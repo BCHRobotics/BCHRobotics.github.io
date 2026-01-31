@@ -1,10 +1,10 @@
 site_name: 2386 Programming
 nav:
-  - Home: index.md
+  - Home: "docs/index.md"
   - Rationale: 
-    - About: rationale.md
-    - Detection: rationale_detection.md
-    - Dashboard: rationale_dashboard.md
+    - About: "docs/rationale.md"
+    - Detection: "docs/rationale_detection.md"
+    - Dashboard: "docs/rationale_dashboard.md"
 theme:
   name: 'windmill-dark'
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
