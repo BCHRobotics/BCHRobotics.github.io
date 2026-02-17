@@ -10,13 +10,16 @@ This is caused by a value of NaN or Infinity being sent to the drivetrain. The e
 ## One of the swerve wheels is dragging or spinning in the wrong direction?
 
 Possible fixes:
+ 
 * reset the swerve turning encoders (see [LINK])
+ 
 * check for any unplugged encoder or power cables (and plug them back in)
+ 
 
 If the above don't work, make sure nobody has edited the swerve-handling part of the robot code, especially the following:
 
 
-`Constants.java`
+*in Constants.java*
  
  
 `public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;`

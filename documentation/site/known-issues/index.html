@@ -90,11 +90,17 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>(CAREFULLY disable and enable again to see if it keeps driving, it should head in the same direction it was going in.)</p>
 <p>This is caused by a value of NaN or Infinity being sent to the drivetrain. The easiest way to get NaN is using a divide by zero, so check for any divides in the code and make sure you're not allowing zeros to get through.</p>
 <h2 id="one-of-the-swerve-wheels-is-dragging-or-spinning-in-the-wrong-direction">One of the swerve wheels is dragging or spinning in the wrong direction?</h2>
-<p>Possible fixes:
-* reset the swerve turning encoders (see [LINK])
-* check for any unplugged encoder or power cables (and plug them back in)</p>
+<p>Possible fixes:</p>
+<ul>
+<li>
+<p>reset the swerve turning encoders (see [LINK])</p>
+</li>
+<li>
+<p>check for any unplugged encoder or power cables (and plug them back in)</p>
+</li>
+</ul>
 <p>If the above don't work, make sure nobody has edited the swerve-handling part of the robot code, especially the following:</p>
-<p><code>Constants.java</code></p>
+<p><em>in Constants.java</em></p>
 <p><code>public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;</code></p>
 <p><code>public static final double kFrontRightChassisAngularOffset = 0;</code></p>
 <p><code>public static final double kBackLeftChassisAngularOffset = Math.PI;</code></p>
