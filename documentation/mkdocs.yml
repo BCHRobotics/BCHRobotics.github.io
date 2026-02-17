@@ -14,6 +14,7 @@ nav:
 
   - Guides:
       - The Basics:
+          - Conventions: g_conventions.md
           - Downloading FRC Software: g_software-downloads.md
           - Making A Robot Project: g_new-project.md
           - Using Drivetools: g_drivetools.md

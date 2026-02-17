@@ -1,6 +1,6 @@
 # Object Detection With Neural Networks
 
-This is the more complicated of the two approaches, but is substantially more effective. A deeper understanding of neural networks (than what will be explained on this page) can be found here: (https://www.youtube.com/watch?v=hfMk-kjRv4c)
+This is the more complicated of the two approaches, but is substantially more effective. A deeper understanding of neural networks (than what will be explained on this page) can be found [here](https://www.youtube.com/watch?v=hfMk-kjRv4c)
 
 ## Training Data
 
