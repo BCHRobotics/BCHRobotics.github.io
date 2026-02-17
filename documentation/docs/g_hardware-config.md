@@ -1,6 +1,8 @@
 # Configuring SparkMAXs
 
-Like all other REV devices (I think), you can configure SparkMAXs through REV Hardware Client. To do this you'll need to connect a laptop (that has REV Hardware Client installed) to the SparkMAX's USB-C port. For reference:
+Like all other REV devices (I think), you can configure SparkMAXs through REV Hardware Client. To do this you'll need to connect a laptop (that has REV Hardware Client installed) to the SparkMAX's USB-C port. 
+ 
+For reference:
 
 ![alt text](img/sparkmax-sideview_1.png?)
 ![alt text](img/sparkmax-sideview_2.png?)
