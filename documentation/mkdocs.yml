@@ -7,11 +7,25 @@ extra:
 
 nav:
   - Home: index.md
+
+  - List of Known Issues: g_known-issues.md
+
   - Guides:
+      - The Basics:
+          - Downloading FRC Software: g_software-downloads.md
+          - Making A Robot Project: g_new-project.md
       - Object Detection: 
           - Overview: g_object-detection.md
           - Color Banding: g_color-banding.md
           - Neural Networks: g_neural-nets.md
+          - Advanced Approaches: g_advanced-od.md
+      - Vision:
+          - Overview: g_vision.md
+          - Photonvision Setup: g_photon-setup.md
+      - Hardware:
+          - Configuring SparkMAXs: g_hardware-config.md
+          - Resetting Swerve Modules: g_swerve-reset.md
+
 
   
 theme:

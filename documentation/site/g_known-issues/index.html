@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="canonical" href="https://bchrobotics.github.io/documentation/g_known-issues/">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>List of Known Issues - 2386 Programming</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "List of Known Problems and Their Solutions", url: "#_top", children: [
+              {title: "Robot suddenly drives full-speed in a direction?", url: "#robot-suddenly-drives-full-speed-in-a-direction" },
+              {title: "One of the swerve wheels is dragging or spinning in the wrong direction?", url: "#one-of-the-swerve-wheels-is-dragging-or-spinning-in-the-wrong-direction" },
+              {title: "", url: "#_1" },
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script>
+      <script src="../search/main.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../g_software-downloads/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../g_software-downloads/" class="btn btn-xs btn-link">
+        Downloading FRC Software
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href=".." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href=".." class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="list-of-known-problems-and-their-solutions">List of Known Problems and Their Solutions</h1>
+<p>Hopefully this helps with troubleshooting any random issues that come up. Please add to this if you find any more problems/solutions!</p>
+<h2 id="robot-suddenly-drives-full-speed-in-a-direction">Robot suddenly drives full-speed in a direction?</h2>
+<p>(CAREFULLY disable and enable again to see if it keeps driving, it should head in the same direction it was going in.)</p>
+<p>This is caused by a value of NaN or Infinity being sent to the drivetrain. The easiest way to get NaN is using a divide by zero, so check for any divides in the code and make sure you're not allowing zeros to get through.</p>
+<h2 id="one-of-the-swerve-wheels-is-dragging-or-spinning-in-the-wrong-direction">One of the swerve wheels is dragging or spinning in the wrong direction?</h2>
+<p>Possible fixes:
+* reset the swerve turning encoders (see [LINK])
+* check for any unplugged encoder or power cables (and plug them back in)</p>
+<p>If the above don't work, make sure nobody has edited the swerve-handling part of the robot code, especially the following:</p>
+<p>`
+Constants.java</p>
+<p>public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;
+public static final double kFrontRightChassisAngularOffset = 0;
+public static final double kBackLeftChassisAngularOffset = Math.PI;
+public static final double kBackRightChassisAngularOffset = Math.PI / 2;
+`</p>
+<p>You may want to test the problematic motors on their own to make sure they work.</p>
+<h2 id="_1"></h2>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../g_software-downloads/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../g_software-downloads/" class="btn btn-xs btn-link">
+        Downloading FRC Software
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href=".." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href=".." class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/noraj/mkdocs-windmill-dark">Windmill Dark</a> theme by Alexandre ZANNI (noraj).</p>
+</footer>
+
+</body>
+</html>
