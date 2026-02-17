@@ -32,6 +32,10 @@
       var is_top_frame = false;
         
         var pageToc = [
+          {title: "Object Detection With Neural Networks", url: "#_top", children: [
+              {title: "Training Data", url: "#training-data" },
+              {title: "Flaws", url: "#flaws" },
+          ]},
         ];
 
     </script>
@@ -79,7 +83,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    
+    <h1 id="object-detection-with-neural-networks">Object Detection With Neural Networks</h1>
+<p>This is the more complicated of the two approaches, but is substantially more effective. A deeper understanding of neural networks (than what will be explained on this page) can be found here: (https://www.youtube.com/watch?v=hfMk-kjRv4c)</p>
+<h2 id="training-data">Training Data</h2>
+<h2 id="flaws">Flaws</h2>
+<p><em>TLDR: the ai can mess up, good data takes work</em></p>
+<p>It's still possible, especially if you don't have a lot of training data or if your training data is too self-similar, for parts of the image that aren't actually game pieces to be selected just because they have a similar color. Good models take a lot of data, and that can take a while.</p>
 
   <br>
     

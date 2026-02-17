@@ -32,6 +32,10 @@
       var is_top_frame = false;
         
         var pageToc = [
+          {title: "Object Detection With Color Banding", url: "#_top", children: [
+              {title: "Setup", url: "#setup" },
+              {title: "Flaws", url: "#flaws" },
+          ]},
         ];
 
     </script>
@@ -79,7 +83,21 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    
+    <h1 id="object-detection-with-color-banding">Object Detection With Color Banding</h1>
+<p>This is the simpler of the two common approaches to object detection.</p>
+<p>The idea is to take a source image and pick out regions that have a similar color - the color of the game piece we want to look for.</p>
+<p>{raw image of a game piece}</p>
+<p>{processed image of a game piece}</p>
+<h2 id="setup">Setup</h2>
+<p>Photonvision has an entire framework for color banding built into it, so it's incredibly easy to set up. </p>
+<p>{image showing the panel}</p>
+<p>{image showing a good config}
+{image showing a bad config}</p>
+<h2 id="flaws">Flaws</h2>
+<p>Since we are only looking for color and no other characteristics like shape, this approach struggles to differentiate between items of the same color - yellow balls vs. yellow cones, for example.</p>
+<p>{raw image of yellow cone and yellow ball}</p>
+<p>{same image, but processed view}</p>
+<p>Worse is when you accidentally detect field elements or other things in the background that have a similar color to the one you want - or just happen to look that way because of the lighting. It gets much worse when the game piece you're looking for is either red or blue (the balls from 2022 is one example) because many field elements are either red or blue. In short, if you're looking for a red or blue game piece you can abandon all hope of using color banding to find it.</p>
 
   <br>
     

@@ -10,6 +10,8 @@ nav:
 
   - List of Known Issues: known-issues.md
 
+  - Competition Checklist: comp-checklist.md
+
   - Guides:
       - The Basics:
           - Downloading FRC Software: g_software-downloads.md
@@ -27,6 +29,8 @@ nav:
           - Configuring SparkMAXs: g_hardware-config.md
           - Swerve Modules: g_swerve-modules.md
           - Swerve Drive Math: g_swerve-math.md
+      - At Competition:
+          - Preparing: g_comp-preparation.md
 
 
   
