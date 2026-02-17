@@ -7,6 +7,12 @@ extra:
 
 nav:
   - Home: index.md
+  - Guides:
+    - Object Detection: g_object-detection.md
+      - Color Banding: g_color-banding.md
+      - Neural Networks: g_neural-nets.md
+
+  
 theme:
   name: 'windmill-dark'
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
