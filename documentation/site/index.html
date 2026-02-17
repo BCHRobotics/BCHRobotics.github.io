@@ -97,12 +97,19 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </li>
 <li class="wm-toc-li-nested collapse">
   <ul class="wm-toctree">
-      <li class="wm-toc-li wm-toc-lev2 "><a href="g_object-detection/" class="wm-article-link wm-toc-text">Object Detection</a>
+      <li class="wm-toc-li wm-toc-lev2 wm-toc-opener"><span class="wm-toc-text">Object Detection</span>
 </li>
-      <li class="wm-toc-li wm-toc-lev2 "><a href="g_color-banding/" class="wm-article-link wm-toc-text">Color Banding</a>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev3 "><a href="g_object-detection/" class="wm-article-link wm-toc-text">Overview</a>
 </li>
-      <li class="wm-toc-li wm-toc-lev2 "><a href="g_neural-nets/" class="wm-article-link wm-toc-text">Neural Networks</a>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="g_color-banding/" class="wm-article-link wm-toc-text">Color Banding</a>
 </li>
+      <li class="wm-toc-li wm-toc-lev3 "><a href="g_neural-nets/" class="wm-article-link wm-toc-text">Neural Networks</a>
+</li>
+  </ul>
+</li>
+
   </ul>
 </li>
 
@@ -131,7 +138,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
       <a href="g_object-detection/" class="btn btn-xs btn-link">
-        Object Detection
+        Overview
       </a>
     </div>
     
@@ -157,7 +164,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
       <a href="g_object-detection/" class="btn btn-xs btn-link">
-        Object Detection
+        Overview
       </a>
     </div>
     
@@ -174,5 +181,5 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </html>
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2026-02-17 20:20:26.625848+00:00
+Build Date UTC : 2026-02-17 20:22:40.502399+00:00
 -->
