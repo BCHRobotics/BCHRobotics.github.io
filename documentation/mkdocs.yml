@@ -8,9 +8,9 @@ extra:
 nav:
   - Home: index.md
   - Guides:
-    - Object Detection: g_object-detection.md
-      - Color Banding: g_color-banding.md
-      - Neural Networks: g_neural-nets.md
+      Object Detection: g_object-detection.md
+      Color Banding: g_color-banding.md
+      Neural Networks: g_neural-nets.md
 
   
 theme:

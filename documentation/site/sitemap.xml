@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bchrobotics.github.io/documentation/</loc>
-         <lastmod>2026-01-31</lastmod>
+         <lastmod>2026-02-17</lastmod>
     </url>
     <url>
-         <loc>https://bchrobotics.github.io/documentation/rationale/</loc>
-         <lastmod>2026-01-31</lastmod>
+         <loc>https://bchrobotics.github.io/documentation/g_color-banding/</loc>
+         <lastmod>2026-02-17</lastmod>
     </url>
     <url>
-         <loc>https://bchrobotics.github.io/documentation/rationale_dashboard/</loc>
-         <lastmod>2026-01-31</lastmod>
+         <loc>https://bchrobotics.github.io/documentation/g_neural-nets/</loc>
+         <lastmod>2026-02-17</lastmod>
     </url>
     <url>
-         <loc>https://bchrobotics.github.io/documentation/rationale_detection/</loc>
-         <lastmod>2026-01-31</lastmod>
+         <loc>https://bchrobotics.github.io/documentation/g_object-detection/</loc>
+         <lastmod>2026-02-17</lastmod>
     </url>
 </urlset>
