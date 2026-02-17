@@ -17,10 +17,14 @@ If the above don't work, make sure nobody has edited the swerve-handling part of
 
 
 `Constants.java`
-
+ 
+ 
 `public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;`
+ 
 `public static final double kFrontRightChassisAngularOffset = 0;`
+ 
 `public static final double kBackLeftChassisAngularOffset = Math.PI;`
+ 
 `public static final double kBackRightChassisAngularOffset = Math.PI / 2;`
 
 You may want to test the problematic motors on their own to make sure they work.

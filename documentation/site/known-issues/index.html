@@ -95,10 +95,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 * check for any unplugged encoder or power cables (and plug them back in)</p>
 <p>If the above don't work, make sure nobody has edited the swerve-handling part of the robot code, especially the following:</p>
 <p><code>Constants.java</code></p>
-<p><code>public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;</code>
-<code>public static final double kFrontRightChassisAngularOffset = 0;</code>
-<code>public static final double kBackLeftChassisAngularOffset = Math.PI;</code>
-<code>public static final double kBackRightChassisAngularOffset = Math.PI / 2;</code></p>
+<p><code>public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;</code></p>
+<p><code>public static final double kFrontRightChassisAngularOffset = 0;</code></p>
+<p><code>public static final double kBackLeftChassisAngularOffset = Math.PI;</code></p>
+<p><code>public static final double kBackRightChassisAngularOffset = Math.PI / 2;</code></p>
 <p>You may want to test the problematic motors on their own to make sure they work.</p>
 <h2 id="_1"></h2>
 
