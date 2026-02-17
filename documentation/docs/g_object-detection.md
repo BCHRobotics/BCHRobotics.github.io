@@ -4,8 +4,8 @@ For more advanced teams, depending on the game being played, being able to detec
 
 ## Color Banding
 
-See [here](https://bchrobotics.github.io/documentation/site/#g_color-banding/)
+See [here](https://bchrobotics.github.io/documentation/site/g_color-banding/)
 
 ## Neural Networks
 
-See [here](https://bchrobotics.github.io/documentation/site/#g_neural-nets/)
+See [here](https://bchrobotics.github.io/documentation/site/g_neural-nets/)

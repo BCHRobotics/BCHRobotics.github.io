@@ -32,4 +32,6 @@ If the above don't work, make sure nobody has edited the swerve-handling part of
 
 You may want to test the problematic motors on their own to make sure they work.
 
-## 
+## Photonvision isn't responding?
+
+Restarting either photonvision or the coprocessor should fix it. Power-cycle the coprocessor if not.
