@@ -8,7 +8,7 @@ extra:
 nav:
   - Home: index.md
 
-  - List of Known Issues: g_known-issues.md
+  - List of Known Issues: known-issues.md
 
   - Guides:
       - The Basics:
@@ -24,7 +24,8 @@ nav:
           - Photonvision Setup: g_photon-setup.md
       - Hardware:
           - Configuring SparkMAXs: g_hardware-config.md
-          - Resetting Swerve Modules: g_swerve-reset.md
+          - Swerve Modules: g_swerve-modules.md
+          - Swerve Drive Math: g_swerve-math.md
 
 
   

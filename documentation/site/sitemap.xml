@@ -17,10 +17,6 @@
          <lastmod>2026-02-17</lastmod>
     </url>
     <url>
-         <loc>https://bchrobotics.github.io/documentation/g_known-issues/</loc>
-         <lastmod>2026-02-17</lastmod>
-    </url>
-    <url>
          <loc>https://bchrobotics.github.io/documentation/g_neural-nets/</loc>
          <lastmod>2026-02-17</lastmod>
     </url>
@@ -41,11 +37,19 @@
          <lastmod>2026-02-17</lastmod>
     </url>
     <url>
-         <loc>https://bchrobotics.github.io/documentation/g_swerve-reset/</loc>
+         <loc>https://bchrobotics.github.io/documentation/g_swerve-math/</loc>
+         <lastmod>2026-02-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bchrobotics.github.io/documentation/g_swerve-modules/</loc>
          <lastmod>2026-02-17</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_vision/</loc>
+         <lastmod>2026-02-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bchrobotics.github.io/documentation/known-issues/</loc>
          <lastmod>2026-02-17</lastmod>
     </url>
 </urlset>

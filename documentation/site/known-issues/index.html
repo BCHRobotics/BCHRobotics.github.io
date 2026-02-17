@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
-    <link rel="canonical" href="https://bchrobotics.github.io/documentation/g_known-issues/">
+    <link rel="canonical" href="https://bchrobotics.github.io/documentation/known-issues/">
     <link rel="shortcut icon" href="../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>List of Known Issues - 2386 Programming</title>
@@ -94,13 +94,11 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 * reset the swerve turning encoders (see [LINK])
 * check for any unplugged encoder or power cables (and plug them back in)</p>
 <p>If the above don't work, make sure nobody has edited the swerve-handling part of the robot code, especially the following:</p>
-<p>`
-Constants.java</p>
-<p>public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;
-public static final double kFrontRightChassisAngularOffset = 0;
-public static final double kBackLeftChassisAngularOffset = Math.PI;
-public static final double kBackRightChassisAngularOffset = Math.PI / 2;
-`</p>
+<p><code>Constants.java</code></p>
+<p><code>public static final double kFrontLeftChassisAngularOffset = -Math.PI / 2;</code>
+<code>public static final double kFrontRightChassisAngularOffset = 0;</code>
+<code>public static final double kBackLeftChassisAngularOffset = Math.PI;</code>
+<code>public static final double kBackRightChassisAngularOffset = Math.PI / 2;</code></p>
 <p>You may want to test the problematic motors on their own to make sure they work.</p>
 <h2 id="_1"></h2>
 
