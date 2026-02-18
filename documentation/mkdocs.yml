@@ -14,9 +14,11 @@ nav:
 
   - Guides:
       - The Basics:
+          - Overview: g_basics-overview.md
           - Conventions: g_conventions.md
           - Downloading FRC Software: g_software-downloads.md
           - Making A Robot Project: g_new-project.md
+          - Running Robot Code: g_running-code.md
           - Using Drivetools: g_drivetools.md
       - Object Detection: 
           - Overview: g_object-detection.md

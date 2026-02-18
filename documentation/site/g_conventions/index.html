@@ -32,6 +32,10 @@
       var is_top_frame = false;
         
         var pageToc = [
+          {title: "Common Conventions and Things To Remember", url: "#_top", children: [
+              {title: "REV Conventions", url: "#rev-conventions" },
+              {title: "WPILib Conventions", url: "#wpilib-conventions" },
+          ]},
         ];
 
     </script>
@@ -68,10 +72,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     </div>
     
     <div class="wm-article-nav">
-      <a href="../comp-checklist/" class="btn btn-xs btn-default pull-left">
+      <a href="../g_basics-overview/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../comp-checklist/" class="btn btn-xs btn-link">
-        Competition Checklist
+        Previous</a><a href="../g_basics-overview/" class="btn btn-xs btn-link">
+        Overview
       </a>
     </div>
     
@@ -79,7 +83,14 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    
+    <h1 id="common-conventions-and-things-to-remember">Common Conventions and Things To Remember</h1>
+<p>There are a few things that are very useful to remember - regardless of whether I actually agree with them - because either REV Robotics, WPILib, or First themselves use them.</p>
+<h2 id="rev-conventions">REV Conventions</h2>
+<p>REV Robotics code will usually have 'm_' as a prefix for most variables (I'm unsure why it's 'm' and not another letter) and 'k_' as a prefix for constant variables. Feel free to change this for our own robot projects, as it's a strange way of writing code.</p>
+<h2 id="wpilib-conventions">WPILib Conventions</h2>
+<p>All coordinate-related things in WPILib follow this convention:</p>
+<p><img alt="alt text" src="../img/robot-3d.png" /></p>
+<p>X+ is always forwards, Y+ is always LEFT (not right, as you may expect) and Z+ is always up. More information on coordinates can be found <a href="https://docs.wpilib.org/en/stable/docs/software/basic-programming/coordinate-system.html">here</a>. For those who are used to working with software like Unity, these coordinates take some getting used to.</p>
 
   <br>
     
@@ -102,10 +113,10 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     </div>
     
     <div class="wm-article-nav">
-      <a href="../comp-checklist/" class="btn btn-xs btn-default pull-left">
+      <a href="../g_basics-overview/" class="btn btn-xs btn-default pull-left">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        Previous</a><a href="../comp-checklist/" class="btn btn-xs btn-link">
-        Competition Checklist
+        Previous</a><a href="../g_basics-overview/" class="btn btn-xs btn-link">
+        Overview
       </a>
     </div>
     

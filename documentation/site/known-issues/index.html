@@ -86,6 +86,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="list-of-known-problems-and-their-solutions">List of Known Problems and Their Solutions</h1>
+<p><em>last updated 02/17/2026</em></p>
 <p>Hopefully this helps with troubleshooting any random issues that come up. Please add to this if you find any more problems/solutions!</p>
 <h2 id="robot-suddenly-drives-full-speed-in-a-direction">Robot suddenly drives full-speed in a direction?</h2>
 <p>(CAREFULLY disable and enable again to see if it keeps driving, it should head in the same direction it was going in.)</p>
@@ -111,7 +112,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Restarting either photonvision or the coprocessor should fix it. Power-cycle the coprocessor if not.</p>
 <h2 id="one-of-the-robots-wheels-is-spinning-randomly">One of the robot's wheels is spinning randomly?</h2>
 <p>Check the encoder cables! The encoder cable from the NEO (driving motor) should be plugged in to the DRIVING SparkMAX's main encoder port, and the encoder cable from the NEO 550 (turning motor) should be plugged in to the TURNING SparkMAX's main encoder port.</p>
-<p>This will very likely fix the issue.</p>
+<p>This will <em>likely</em> fix the issue. If not, then there's a good chance that the SparkMAX is broken (a 'bad' SparkMAX). Swap the Spark, and if <em>that</em> solves the problem then you know the old Spark was broken.</p>
 
   <br>
     

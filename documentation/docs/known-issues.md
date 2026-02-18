@@ -1,5 +1,6 @@
 # List of Known Problems and Their Solutions
-
+*last updated 02/17/2026*
+ 
 Hopefully this helps with troubleshooting any random issues that come up. Please add to this if you find any more problems/solutions!
  
 ## Robot suddenly drives full-speed in a direction?
@@ -40,4 +41,4 @@ Restarting either photonvision or the coprocessor should fix it. Power-cycle the
 
 Check the encoder cables! The encoder cable from the NEO (driving motor) should be plugged in to the DRIVING SparkMAX's main encoder port, and the encoder cable from the NEO 550 (turning motor) should be plugged in to the TURNING SparkMAX's main encoder port.
  
-This will very likely fix the issue.
+This will *likely* fix the issue. If not, then there's a good chance that the SparkMAX is broken (a 'bad' SparkMAX). Swap the Spark, and if *that* solves the problem then you know the old Spark was broken.
