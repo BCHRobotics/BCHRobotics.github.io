@@ -36,6 +36,7 @@
               {title: "Robot suddenly drives full-speed in a direction?", url: "#robot-suddenly-drives-full-speed-in-a-direction" },
               {title: "One of the swerve wheels is dragging or spinning in the wrong direction?", url: "#one-of-the-swerve-wheels-is-dragging-or-spinning-in-the-wrong-direction" },
               {title: "Photonvision isn\u0027t responding?", url: "#photonvision-isnt-responding" },
+              {title: "One of the robot\u0027s wheels is spinning randomly?", url: "#one-of-the-robots-wheels-is-spinning-randomly" },
           ]},
         ];
 
@@ -108,6 +109,9 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>You may want to test the problematic motors on their own to make sure they work.</p>
 <h2 id="photonvision-isnt-responding">Photonvision isn't responding?</h2>
 <p>Restarting either photonvision or the coprocessor should fix it. Power-cycle the coprocessor if not.</p>
+<h2 id="one-of-the-robots-wheels-is-spinning-randomly">One of the robot's wheels is spinning randomly?</h2>
+<p>Check the encoder cables! The encoder cable from the NEO (driving motor) should be plugged in to the DRIVING SparkMAX's main encoder port, and the encoder cable from the NEO 550 (turning motor) should be plugged in to the TURNING SparkMAX's main encoder port.</p>
+<p>This will very likely fix the issue.</p>
 
   <br>
     

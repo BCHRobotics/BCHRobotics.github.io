@@ -87,7 +87,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>This is the simpler of the two common approaches to object detection.</p>
 <p>The idea is to take a source image and pick out regions that have a similar color - the color of the game piece we want to look for.</p>
 <p><img alt="alt text" src="../img/od_1.png" /></p>
-<p><em>This is what the camera sees.</em>
+<p><em>This is what the camera sees. The green cross marks the center of the image.</em>
 <img alt="alt text" src="../img/od_2.png" /></p>
 <p><em>By looking for yellow circles in the image, we can detect the ball (the red square is its bounding box).</em></p>
 <h2 id="setup">Setup</h2>
@@ -98,9 +98,44 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <p>Panel number one, the <code>Threshold</code> panel, allows you to change what colors you're trying to look for. </p>
 <p><img alt="alt text" src="../img/threshold-panel.png" /></p>
 <p><em>The Threshold panel</em></p>
-<p>Panel number two, the <code>Contours</code> panel, allows you to change what to do with the white regions in the processed image.</p>
+<p>Here's what each of the options do, more specifically:</p>
+<ul>
+<li><code>Hue</code> is, well, the hue of the color that you're looking for.</li>
+<li><code>Saturation</code> is the saturation of said color.</li>
+<li><code>Value</code> is, interestingly enough, the value of that color.</li>
+<li><code>Invert Hue</code> is self explanatory.</li>
+</ul>
+<p>The last three buttons are important - they automatically set the colors to a spot on the image. Just press <code>SET TO AVERAGE</code> and click on the color you want in the camera feed. If you want to be more specific, press <code>SHRINK RANGE</code> and click on the color you want. Pressing <code>EXPAND RANGE</code> and clicking on another area of the image will change the color range to include the color you clicked on. This way you can very quickly tune what colors you're looking for, instead of trying to guess-and-check the HSV (Hue, Saturation, Value) values.</p>
+<h3 id="note">NOTE:</h3>
+<p>If you are using color banding, you will almost certainly need to re-calibrate the colors EVERY DAY at competition! Beware of this.</p>
+<p>Panel number two, the <code>Contours</code> panel, allows you to change what to do with the white regions in the processed image. You can tell Photonvision to look for square regions, circular regions, and so on - I won't pretend to know what exactly Photonvision is doing behind the scenes to look for these different regions, we can just accept that it works well enough.</p>
 <p><img alt="alt text" src="../img/contours-panel.png" /></p>
 <p><em>The Contours panel</em></p>
+<p>Here's what each of the options do:</p>
+<ul>
+<li>
+<p><code>Target Orientation</code> does... uh idk</p>
+</li>
+<li>
+<p><code>Target Sort</code> Tells Photonvision how to decide what's object 0, object 1, and so on.</p>
+</li>
+<li>
+<p><code>Area</code> Is the range of percent areas that will be considered valid targets.</p>
+</li>
+<li>
+<p><code>Fullness</code> does... idk</p>
+</li>
+<li>
+<p><code>Perimeter</code> Is the range of perimeters (measured in pixels) that are considered valid.</p>
+</li>
+<li>
+<p><code>Speckle Rejection</code> idk</p>
+</li>
+<li>
+<p><code>Target Shape</code> Is the closest geometric shape to how the game piece you're looking for will APPEAR in the image (balls are circles, cubes would be squares, etc.)</p>
+</li>
+</ul>
+<p>The rest of the settings depend on your <code>Target Shape</code>, and are fairly self-explanatory.</p>
 <h2 id="flaws">Flaws</h2>
 <p>Since we are only looking for color and no other characteristics like shape, this approach struggles to differentiate between items of the same color - yellow balls vs. yellow cones, for example.</p>
 <p><img alt="alt text" src="../img/od_3.png" /></p>
