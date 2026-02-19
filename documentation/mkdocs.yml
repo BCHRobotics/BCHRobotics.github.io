@@ -20,14 +20,18 @@ nav:
           - Making A Robot Project: g_new-project.md
           - Running Robot Code: g_running-code.md
           - Using Drivetools: g_drivetools.md
-      - Object Detection: 
-          - Overview: g_object-detection.md
-          - Color Banding: g_color-banding.md
-          - Neural Networks: g_neural-nets.md
-          - Advanced Approaches: g_advanced-od.md
+          - Commands: g_commands.md
       - Vision:
           - Overview: g_vision.md
           - Photonvision Setup: g_photon-setup.md
+          - Object Detection: 
+            - Overview: g_object-detection.md
+            - Color Banding: g_color-banding.md
+            - Neural Networks: g_neural-nets.md
+            - Advanced Approaches: g_advanced-od.md
+          - Apriltags:
+            - Overview: g_apriltags.md
+            - Pose Estimation: g_pose-estimation.md
       - Hardware:
           - Configuring SparkMAXs: g_hardware-config.md
           - Swerve Modules: g_swerve-modules.md

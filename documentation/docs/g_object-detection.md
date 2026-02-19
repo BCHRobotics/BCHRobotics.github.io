@@ -1,5 +1,6 @@
 # Detecting Game Pieces
-
+`complete`
+ 
 For more advanced teams, depending on the game being played, being able to detect game pieces during a match can be incredibly helpful. There are two widely-used approaches to this: *Color Banding* and *Neural Networks*
 
 ## Color Banding

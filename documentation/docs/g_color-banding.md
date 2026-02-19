@@ -1,5 +1,6 @@
 # Object Detection With Color Banding
-
+`complete`
+ 
 This is the simpler of the two common approaches to object detection.
  
 The idea is to take a source image and pick out regions that have a similar color - the color of the game piece we want to look for.
