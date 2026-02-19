@@ -1,4 +1,5 @@
 # Preparing for Competition
+`in progress`
 
 You should read this guide *before* you actually leave for competition.
  

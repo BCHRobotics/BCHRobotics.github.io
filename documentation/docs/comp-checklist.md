@@ -1,4 +1,5 @@
 # Competition Checklist
+`in progress`
 
 All of these items should be either brought with the driveteam or loaded with the pit. This is a general list, so it might be missing some more specific items. Feel free to update as needed.
 

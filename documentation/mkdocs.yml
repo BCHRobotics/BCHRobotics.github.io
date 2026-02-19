@@ -13,6 +13,7 @@ nav:
   - Competition Checklist: comp-checklist.md
 
   - Guides:
+      - Overview: g_overview.md
       - The Basics:
           - Overview: g_basics-overview.md
           - Conventions: g_conventions.md
@@ -46,4 +47,5 @@ theme:
   custom_dir: 'mkdocs-windmill-dark/mkdocs_windmill_dark'
 
 
+# 2/23 (ish) guides completed
 # mkdocs build -f ./documentation/mkdocs.yml
