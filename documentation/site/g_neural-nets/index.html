@@ -32,8 +32,11 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Object Detection With Neural Networks", url: "#_top", children: [
-              {title: "Training Data", url: "#training-data" },
+          {title: "Object Detection Using Neural Networks", url: "#_top", children: [
+              {title: "Setup", url: "#setup" },
+              {title: "Training", url: "#training" },
+              {title: "Exporting", url: "#exporting" },
+              {title: "Bringing The Model Into Photonvision", url: "#bringing-the-model-into-photonvision" },
               {title: "Flaws", url: "#flaws" },
           ]},
         ];
@@ -83,9 +86,63 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="object-detection-with-neural-networks">Object Detection With Neural Networks</h1>
-<p>This is the more complicated of the two approaches, but is substantially more effective. A deeper understanding of neural networks (than what will be explained on this page) can be found <a href="https://www.youtube.com/watch?v=hfMk-kjRv4c">here</a></p>
-<h2 id="training-data">Training Data</h2>
+    <h1 id="object-detection-using-neural-networks">Object Detection Using Neural Networks</h1>
+<p><code>in progress</code></p>
+<p>This is the more complicated of the two approaches, but is substantially more effective. A deeper understanding of neural networks (than what will be explained on this page) can be found <a href="https://www.youtube.com/watch?v=hfMk-kjRv4c">here</a>. If you're interested in learning more about neural nets in general, I'd start there.</p>
+<h2 id="setup">Setup</h2>
+<p>Getting a neural network running on a coprocessor on an FRC robot involves two steps: <em>training</em> and <em>exporting</em>. Exporting varies depending on what device you're using, but training is the same no matter what.</p>
+<h2 id="training">Training</h2>
+<p>PhotonVision is built to accept a specific format of neural network called YOLO (which stands for You Only Look Once, more info <a href="https://arxiv.org/abs/1506.02640">here</a> and <a href="https://en.wikipedia.org/wiki/You_Only_Look_Once">here</a> and <a href="https://docs.ultralytics.com/">here</a>). </p>
+<h3 id="1-getting-enough-data">1. Getting Enough Data</h3>
+<p>You will need, for a good model, over 1000 images of the target object. Taking this many pictures by hand </p>
+<hr />
+<h3 id="2-videos-to-images">2. Videos To Images</h3>
+<p>So neural networks require <em>images</em> to work, and what we have done is take a great deal of <em>video</em>. We need to turn the videos into images, which in theory can be done by just splitting the video into its frames. There's no need to use every single frame, a better idea would be to use every <em>n</em> frames, for example every 10 or every 5 frames.</p>
+<p>There are a number of ways to split a video into frames but the one that I tend to use is done through VLC media player. This is nice because it works both on Windows and MacOS.</p>
+<hr />
+<h2 id="exporting">Exporting</h2>
+<p>Depending on what device you're using as your coprocessor, the ai model needs to be in a different file format. All of the file extensions here tend to be very niche (.onnx, .pt, .rknn, etc.).</p>
+<p><em>I will explain here how to do things for both an OrangePi and a Rubik Pi 3, just know that while other devices are certainly possible we don't use them and so I can't offer a guide on how to set things up for them.</em></p>
+<h3 id="1-orangepi">1. OrangePi</h3>
+<p>The OrangePi runs neural networks using the .rknn format. You first have to export the 
+<em>.pt</em> file you got after training to a <em>.onnx</em> file, then you can export to <em>.rknn</em>. </p>
+<p><em>Quick note: All of the information in this section was derived from a single guide, found <a href="https://blog.kaylordut.com/2024/02/09/rk3588's-yolov8-model-conversion-from-pt-to-rknn/">here</a>. This page pretty much says the same stuff, so I'm giving all credit to the author of that guide. The only reason I'm writing anything at all is so that this website can remain a one-stop-shop, and so that if the original blog ever goes down this can act as a backup.</em></p>
+<hr />
+<h3 id="1-rubik-pi-3">1. Rubik Pi 3</h3>
+<hr />
+<h2 id="bringing-the-model-into-photonvision">Bringing The Model Into Photonvision</h2>
+<p>Adding an object detection model to PhotonVision is <em>slightly</em> different depending on what version of PhotonVision you're using. I'll cover the newer system (2025+ I think) here.</p>
+<p>First, make sure that you have the <code>Object Detection</code> pipeline selected. </p>
+<p>With the model uploaded, everything you need will be inside the <code>Object Detection</code> panel.</p>
+<p><img alt="alt text" src="../img/nn1.png" />
+<em>The relevant parts of the PhotonVision dashboard.</em></p>
+<p>Here is the full <code>Object Detection</code> panel:</p>
+<p><img alt="alt text" src="../img/nn2.png" />
+<em>The Object Detection panel.</em></p>
+<p>The options each do the following:</p>
+<ul>
+<li>
+<p><code>Model</code> is a drop-down, allowing you to select either the default model or one that you've uploaded.</p>
+</li>
+<li>
+<p><code>Confidence</code> is the range of confidence values that will be considered valid.</p>
+</li>
+<li>
+<p><code>Area</code> is the range of percent area (of the whole image) values that will be considered valid.</p>
+</li>
+<li>
+<p><code>Ratio (W/H)</code> is range of width-to-height ratios that will be considered valid.</p>
+</li>
+<li>
+<p><code>Target Orientation</code> tells PhotonVision to look for either horizontal or verticl rectangles.</p>
+</li>
+<li>
+<p><code>Target Sort</code> tells PhotonVision how to define object 0, object 1, and so on. <code>Largest</code> for example just means the biggest object gets to be 0, the next-biggest 1, etc.</p>
+</li>
+</ul>
+<p>Once everything's been done properly, you should see something along these lines:</p>
+<p><img alt="alt text" src="../img/nn3.png" />
+<em>The camera correctly identifies the ball.</em></p>
 <h2 id="flaws">Flaws</h2>
 <p><em>TLDR: the ai can mess up, good data takes work</em></p>
 <p>It's still possible, especially if you don't have a lot of training data or if your training data is too self-similar, for parts of the image that aren't actually game pieces to be selected just because they have a similar color. Good models take a lot of data, and that can take a while.</p>

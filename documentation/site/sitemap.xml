@@ -2,78 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bchrobotics.github.io/documentation/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/comp-checklist/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_advanced-od/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://bchrobotics.github.io/documentation/g_apriltags/</loc>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_basics-overview/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_color-banding/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://bchrobotics.github.io/documentation/g_commands/</loc>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_comp-preparation/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_conventions/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_drivetools/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_hardware-config/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_neural-nets/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_new-project/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_object-detection/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_photon-setup/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://bchrobotics.github.io/documentation/g_pose-estimation/</loc>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_running-code/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_software-downloads/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_swerve-math/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_swerve-modules/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/g_vision/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://bchrobotics.github.io/documentation/known-issues/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-19</lastmod>
     </url>
 </urlset>
